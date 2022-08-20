@@ -1,4 +1,17 @@
 # Terraform module and workspace
+#### Activity
+<div align="left">
+  <a href="https://github.com/tchiunam/terraform-axolotl/commits/main">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/tchiunam/terraform-axolotl" />
+  </a>
+  <a href="https://github.com/tchiunam/terraform-axolotl/issues?q=is%3Aissue+is%3Aclosed">
+    <img alt="Closed Issues" src="https://img.shields.io/github/issues-closed/tchiunam/terraform-axolotl" />
+  </a>
+  <a href="https://github.com/tchiunam/terraform-axolotl/pulls?q=is%3Apr+is%3Aclosed">
+    <img alt="Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/tchiunam/terraform-axolotl" />
+  </a>
+</div>
+
 #### License
 <div align="left">
   <a href="https://opensource.org/licenses/MIT">
@@ -9,7 +22,7 @@
 #### Popularity
 <div align="left">
   <img alt="Repo Stars" src="https://img.shields.io/github/stars/tchiunam/terraform-axolotl?style=social" />
-  <img alt="Watchers" src="https://img.shields.io/github/watchers/tchiunam/terragrunt-axolotl?style=social" />
+  <img alt="Watchers" src="https://img.shields.io/github/watchers/tchiunam/terraform-axolotl?style=social" />
 </div>
 
 <br />
