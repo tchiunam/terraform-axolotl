@@ -1,8 +1,15 @@
 # Terraform module and workspace
+#### License
+<div align="left">
+  <a href="https://opensource.org/licenses/MIT">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/tchiunam/terraform-axolotl" />
+  </a>
+</div>
+
 #### Popularity
 <div align="left">
   <img alt="Repo Stars" src="https://img.shields.io/github/stars/tchiunam/terraform-axolotl?style=social" />
-  <img alt="Watchers" src="https://img.shields.io/github/watchers/tchiunam/terraform-axolotl?style=social" />
+  <img alt="Watchers" src="https://img.shields.io/github/watchers/tchiunam/terragrunt-axolotl?style=social" />
 </div>
 
 <br />
