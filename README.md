@@ -1,4 +1,12 @@
 # Terraform module and workspace
+#### Popularity
+<div align="left">
+  <img alt="Repo Stars" src="https://img.shields.io/github/stars/tchiunam/terraform-axolotl?style=social" />
+  <img alt="Watchers" src="https://img.shields.io/github/watchers/tchiunam/terraform-axolotl?style=social" />
+</div>
+
+<br />
+
 Terraform is a powerful tool for automating the maintenace of infrastructure.
 Module allows you to create reusable blocks; Workspace allows you to push changes
 across multiple environments. How to define an appropriate scope for each module?
