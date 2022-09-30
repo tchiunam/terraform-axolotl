@@ -144,6 +144,9 @@ Designing Terraform code in a business-oriented way is one-step closer to
 DevOps-as-a-service. Modulizing your data structure with business-line allows you
 to clone and destroy without taking too much concern about affecting the others.
 
+Another advantage of doing so is that you can leverage the code owner feature of source
+control by CODEOWNERS under the corresponding folder of business services.
+
 
 # Illustration
 This example gives you the idea about the business-oriented design. The folder
@@ -154,7 +157,7 @@ Of course, you should externalize your module with versioning.
 
 ```
 -- SERVICE-DIRECTORY/
-   -- OWNERS
+   -- CODEOWNERS
    -- modules/
       -- iam_role
          -- main.tf
@@ -169,6 +172,7 @@ Of course, you should externalize your module with versioning.
          -- provider.tf
          -- README
       -- business_application_1
+         -- CODEOWNERS
          -- main.tf
             | module iam_role
             | module security_group
@@ -189,16 +193,14 @@ Of course, you should externalize your module with versioning.
          -- main.tf
 ```
 
-## 
-
-## Usage
-### Working directory
+# Usage
+## Working directory
 You have to be in the application directory to run your code.
 ```
 cd applciations/<name>
 ```
 
-### Work on your changes
+## Work on your changes
 To list workspaces:
 ```
 terraform workspace list
